@@ -1,0 +1,5 @@
+a=int (input("Dame el valor a"))
+b=int (input("Dame el valor b"))
+c=int (input("Dame el valor c"))
+d=(a+b)+((a)^2)-3/c+2^2 
+print (d)

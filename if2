@@ -1,0 +1,10 @@
+a=int (input("Dame el numero a "))
+b=int (input("Dame el numero b "))
+if a==b:
+    print(a," los numeros son iguales ",b)
+if a<b:
+    print(a,"es menor que",b,"son diferentes")
+else:
+    if a>b:  
+       print (a," es mayor que ",b,"son diferentes")
+print ("Finalizo el programa")

@@ -1,0 +1,24 @@
+a=int (input("Dame el numero a "))
+b=int (input("Dame el numero b "))
+c=int (input("Dame el numero c "))
+if a==b==c:
+    print(a," los numeros son iguales ",b," y ",c)
+elif a<b:
+    if a==c:
+        print("Son diferentes",a,"es menor que",b,"y",a,"es igual a",c)
+    elif b==c:
+        print("Son diferentes",a,"es menor que",b,"y",b,"es igual a",c)
+    elif b<c:
+         print("Son diferentes",a,"es mayor que",b,"y",b,"es menor",c)
+    elif b>c:
+         print("Son diferentes",a,"es mayor que",b,"y",b,"es mayor",c)
+elif a>b:
+    if a==c:
+        print("Son diferentes",a,"es mayor que",b,"y",a,"es igual a",c)
+    elif b==c:
+        print("Son diferentes",a,"es mayor que",b,"y",b,"es igual a",c)
+    elif b<c:
+         print("Son diferentes",a,"es mayor que",b,"y",b,"es menor",c)
+    elif b>c:
+         print("Son diferentes",a,"es mayor que",b,"y",b,"es mayor",c)
+print ("Finalizo el programa")

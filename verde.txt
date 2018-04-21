@@ -1,0 +1,14 @@
+solucion matricial
+z11=input ('z11: ');
+z22=input ('z22: ');
+z33=input ('z33: ');
+z12=input ('z12: ');
+z13=input ('z13: ');
+z21=input ('z21: ');
+z23=input ('z23: ');
+v11=input ('v11: ');
+v22=input ('v22: ');
+v33=input ('v33: ');
+a=[z11 z12 z13; z12 z22 z23;z13 z23 z33]
+b=[v11;v22;v33]
+corrientes=[a/b]

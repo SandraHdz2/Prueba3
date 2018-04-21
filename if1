@@ -1,0 +1,9 @@
+numero=int (input ("Dame un numero mayor a 5: "))
+if numero>=5:
+            print("Correcto")
+#finaliza el if
+if numero==10:
+    print("Tu numero es",numero,"es igual")
+if numero<=1:
+    print("Tu numero es",numero,"es menor o igual a 1")
+print ("Termino el programa")
